@@ -31,7 +31,7 @@
 </div>
 </div>
 
-# Logger Module
+# Date Module
 
 `Date` module for the [Hapiness](https://github.com/hapinessjs/hapiness) framework.
 

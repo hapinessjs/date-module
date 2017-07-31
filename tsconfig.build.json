@@ -1,0 +1,18 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "outDir": ".",
+        "rootDir": "./src",
+        "types": [
+            "node",
+            "moment",
+            "moment-timezone"
+        ]
+    },
+    "exclude": [
+        "node_modules",
+        "dist",
+        "test",
+        "tools"
+    ]
+}

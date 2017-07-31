@@ -14,10 +14,8 @@
         "typeRoots": ["./node_modules/@types"],
         "types": [
             "node",
-            "boom",
-            "hapi",
-            "hoek",
-            "joi",
+            "moment",
+            "moment-timezone",
             "fs-extra"
         ],
         "lib": [

@@ -5,10 +5,8 @@
         "rootDir": "./src",
         "types": [
             "node",
-            "boom",
-            "hapi",
-            "hoek",
-            "joi"
+            "moment",
+            "moment-timezone"
         ]
     },
     "exclude": [

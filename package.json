@@ -1,7 +1,7 @@
 {
     "name": "@hapiness/date",
     "version": "1.0.0-rc.6",
-    "description": "Hapiness Date's module",
+    "description": "Date module for Hapiness framework based on moment",
     "main": "index.js",
     "types": "index.d.ts",
     "private": false,
@@ -80,19 +80,17 @@
         "mocha-typescript": "^1.1.7",
         "rimraf": "^2.6.1",
         "rxjs": "^5.4.2",
-        "ts-node": "^3.2.0",
+        "ts-node": "^3.3.0",
         "tslint": "^5.5.0",
-        "typescript": "^2.4.1",
+        "typescript": "^2.4.2",
         "unit.js": "^2.0.0"
     },
     "engines": {
         "node": ">=7.0.0"
     },
     "dependencies": {
-        "@types/date-fns": "^2.6.0",
         "@types/moment": "^2.13.0",
         "@types/moment-timezone": "^0.2.34",
-        "date-fns": "^1.28.5",
         "moment": "^2.18.1",
         "moment-timezone": "^0.5.13"
     }

@@ -2,17 +2,17 @@
 
 <div style="margin-bottom:20px;">
 <div style="line-height:60px">
-    <a href="https://travis-ci.org/hapinessjs/logger-module.svg?branch=master">
-        <img src="https://travis-ci.org/hapinessjs/logger-module.svg?branch=master" alt="build" />
+    <a href="https://travis-ci.org/hapinessjs/date-module.svg?branch=master">
+        <img src="https://travis-ci.org/hapinessjs/date-module.svg?branch=master" alt="build" />
     </a>
-    <a href="https://coveralls.io/github/hapinessjs/logger-module?branch=master">
-        <img src="https://coveralls.io/repos/github/hapinessjs/logger-module/badge.svg?branch=master" alt="coveralls" />
+    <a href="https://coveralls.io/github/hapinessjs/date-module?branch=master">
+        <img src="https://coveralls.io/repos/github/hapinessjs/date-module/badge.svg?branch=master" alt="coveralls" />
     </a>
-    <a href="https://david-dm.org/hapinessjs/logger-module">
-        <img src="https://david-dm.org/hapinessjs/logger-module.svg" alt="dependencies" />
+    <a href="https://david-dm.org/hapinessjs/date-module">
+        <img src="https://david-dm.org/hapinessjs/date-module.svg" alt="dependencies" />
     </a>
-    <a href="https://david-dm.org/hapinessjs/logger-module?type=dev">
-        <img src="https://david-dm.org/hapinessjs/logger-module/dev-status.svg" alt="devDependencies" />
+    <a href="https://david-dm.org/hapinessjs/date-module?type=dev">
+        <img src="https://david-dm.org/hapinessjs/date-module/dev-status.svg" alt="devDependencies" />
     </a>
 </div>
 <div>
@@ -39,7 +39,7 @@
 
 * [Using your module inside Hapiness application](#using-your-module-inside-hapiness-application)
     * [Yarn or NPM it in your package.json](#yarn-or-npm-it-in-your-packagejson)
-    * [Import LoggerModule from the library](#import-loggermodule-from-the-library)
+    * [Import DateModule from the library](#import-datemodule-from-the-library)
 * [Contributing](#contributing)
 * [Change History](#change-history)
 * [Maintainers](#maintainers)
@@ -50,11 +50,11 @@
 ### `yarn` or `npm` it in your `package.json`
 
 ```bash
-$ npm install --save @hapiness/logger
+$ npm install --save @hapiness/core @hapiness/date
 
 or
 
-$ yarn add @hapiness/logger
+$ yarn add @hapiness/core @hapiness/date
 ```
     
 ```javascript
@@ -107,8 +107,11 @@ To set up your development environment:
 
 ## Change History
 
-* v1.0.0-rc.6 (2017-07-24)
+* v1.0.0-rc.6 (2017-07-31)
     * Module initialization.
+    * Moment.js helper + timezone.
+    * Documentation.
+    * Module version related to core version.
     
 [Back to top](#table-of-contents)
 

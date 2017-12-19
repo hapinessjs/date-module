@@ -1,4 +1,4 @@
-import { Optional, Inject, Injectable } from '@hapiness/core';
+import { Injectable } from '@hapiness/core';
 import * as momentTz from 'moment-timezone';
 import { Moment } from 'moment';
 import * as moment from 'moment';
@@ -17,7 +17,7 @@ export class DateService {
     /**
      * Get date helper
      */
-    helper = moment
+    helper = moment;
 
     /**
      * Get timezone infos

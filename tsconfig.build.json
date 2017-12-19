@@ -1,11 +1,11 @@
 {
     "extends": "./tsconfig.json",
     "compilerOptions": {
-        "outDir": ".",
+        "outDir": "./dist/commonjs",
         "rootDir": "./src",
+        "declarationDir": "./dist",
         "types": [
             "node",
-            "moment",
             "moment-timezone"
         ]
     },

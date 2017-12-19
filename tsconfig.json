@@ -1,11 +1,12 @@
 {
     "compilerOptions": {
         "target": "es2015",
-        "module": "umd",
+        "module": "commonjs",
         "moduleResolution": "node",
         "declaration": true,
         "noImplicitAny": false,
         "sourceMap": true,
+        "inlineSources": true,
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "outDir": "./tmp",
@@ -14,9 +15,8 @@
         "typeRoots": ["./node_modules/@types"],
         "types": [
             "node",
-            "moment",
-            "moment-timezone",
-            "fs-extra"
+            "fs-extra",
+            "moment-timezone"
         ],
         "lib": [
             "dom",

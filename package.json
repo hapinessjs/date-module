@@ -1,6 +1,6 @@
 {
     "name": "@hapiness/date",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "Date module for Hapiness framework based on moment",
     "main": "commonjs/index.js",
     "types": "index.d.ts",
@@ -67,10 +67,10 @@
     },
     "homepage": "https://github.com/hapinessjs/date-module#readme",
     "peerdependencies": {
-        "@hapiness/core": "^1.3.0"
+        "@hapiness/core": "^1.5.1"
     },
     "devDependencies": {
-        "@hapiness/core": "^1.3.0",
+        "@hapiness/core": "^1.5.1",
         "@types/fs-extra": "^5.0.0",
         "coveralls": "^3.0.0",
         "fs-extra": "^5.0.0",
